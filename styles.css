@@ -123,6 +123,7 @@ main, .bio, .skills, .contact {
 .image-container {
     text-align:center; /* Centers the image horizontally */
     margin: 30px; /* Adds space around the container */
+    display: none;
 }
 
 .rounded-image {
