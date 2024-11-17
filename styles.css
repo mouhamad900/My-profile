@@ -123,7 +123,6 @@ main, .bio, .skills, .contact {
 .image-container {
     text-align:center; /* Centers the image horizontally */
     margin: 30px; /* Adds space around the container */
-    display: none;
 }
 
 .rounded-image {
@@ -133,5 +132,5 @@ main, .bio, .skills, .contact {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
     object-fit: cover; /* Ensures the image scales properly inside the circle */
     margin: 10px auto; /* Adds space around the image and centers it */
-    display: block; /* Ensures the image is treated as a block-level element */
+    display:none; /* Ensures the image is treated as a block-level element */
 }
